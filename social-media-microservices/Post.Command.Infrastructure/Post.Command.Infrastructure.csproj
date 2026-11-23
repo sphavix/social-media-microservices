@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.16.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.15" />
+    <PackageReference Include="MongoDB.Driver" Version="3.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\cqrs.core\cqrs.core.csproj" />
     <ProjectReference Include="..\Post.Command.Domain\Post.Command.Domain.csproj" />
   </ItemGroup>
