@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/social-media-cqrs/">
+    <Project Path="cqrs.core/cqrs.core.csproj" />
+  </Folder>
+  <Folder Name="/social-media-post/">
+    <Project Path="Post.Common/Post.Common.csproj" />
+  </Folder>
+  <Folder Name="/social-media-post/Post.Command/">
+    <Project Path="Post.Command.Api/Post.Command.Api.csproj" />
+    <Project Path="Post.Command.Domain/Post.Command.Domain.csproj" />
+    <Project Path="Post.Command.Infrastructure/Post.Command.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/social-media-post/Post.Query/">
+    <Project Path="Post.Query.Api/Post.Query.Api.csproj" />
+    <Project Path="Post.Query.Domain/Post.Query.Domain.csproj" />
+    <Project Path="Post.Query.Infrustructure/Post.Query.Infrustructure.csproj" />
+  </Folder>
+</Solution>
