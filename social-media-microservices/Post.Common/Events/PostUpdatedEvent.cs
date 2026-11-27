@@ -9,5 +9,5 @@ public class PostUpdatedEvent : BaseEvent
     public PostUpdatedEvent() : base(nameof(PostUpdatedEvent))
     {
     }
-    public string Message { get; set; }
+    public string Content { get; set; }
 }
